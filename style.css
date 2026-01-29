@@ -755,6 +755,18 @@ body:hover .cursor-glow {
   gap: 24px;
 }
 
+.projects-grid .project-card:first-child {
+  grid-column: 1 / -1;
+}
+
+.projects-grid .project-card:first-child .project-image {
+  height: 260px;
+}
+
+.projects-grid .project-card:first-child .project-placeholder {
+  font-size: 5rem;
+}
+
 .project-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
