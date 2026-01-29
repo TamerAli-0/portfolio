@@ -164,6 +164,14 @@ A drum machine / sound pad where users tap colorful pads to trigger sounds. Supp
 - [x] Updated portfolio: OmniStream as flagship project, Kotlin/Java skills, expanded grid
 - [x] Added beat generator to SoundBoard (Trap, Boom Bap, House, Drill, Lo-Fi)
 
+### Day 2 — Jan 30, 2026
+- [x] Added OmniStream APK download link to portfolio (redirects to GitHub Releases)
+- [x] Set up release signing config for OmniStream (keystore + gradle config)
+- [x] Moved signing credentials to local.properties (not pushed to GitHub)
+- [x] Added .jks/.keystore to .gitignore
+- [x] Planned OmniStream access gate (password + account creation)
+- [x] Planned OmniStream Web — companion website with login and cross-device sync
+
 ---
 
 ## All Live Links
@@ -176,6 +184,23 @@ A drum machine / sound pad where users tap colorful pads to trigger sounds. Supp
 | TypingArena | [typing-arena](https://github.com/TamerAli-0/typing-arena) | [tamerali-0.github.io/typing-arena](https://tamerali-0.github.io/typing-arena/) |
 | SoundBoard | [sound-board](https://github.com/TamerAli-0/sound-board) | [tamerali-0.github.io/sound-board](https://tamerali-0.github.io/sound-board/) |
 | PixelDraw | [pixel-draw](https://github.com/TamerAli-0/pixel-draw) | [tamerali-0.github.io/pixel-draw](https://tamerali-0.github.io/pixel-draw/) |
+
+---
+
+## Upcoming — OmniStream Expansion
+
+### OmniStream Auth & Access Gate
+- App will require an access password on first launch (provided by Tamer)
+- After entering the password, users create a personal account (email + password)
+- Account syncs across devices — download the app on a new phone, log in, pick up where you left off
+- Tracks continue reading, continue watching, favorites, and preferences per account
+
+### OmniStream Web (Planned)
+- A companion website mirroring the app experience
+- Login with the same account used in the Android app
+- Continue reading/watching progress synced between app and web
+- Browse library, manage favorites, and access history from any browser
+- Same multi-source architecture, adapted for web
 
 ---
 
