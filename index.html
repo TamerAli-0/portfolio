@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tamer Altaweel | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <!-- Cursor glow effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Particle canvas -->
+  <canvas id="particles"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>T<span class="logo-dot">.</span>A<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge animate-in">
+        <span class="badge-dot"></span>
+        Available for work
+      </div>
+      <h1 class="hero-title animate-in">
+        Hi, I'm <span class="gradient-text">Tamer Altaweel</span>
+      </h1>
+      <div class="hero-typewriter animate-in">
+        <span class="typewriter-prefix">I build </span>
+        <span class="typewriter-text" id="typewriter"></span>
+        <span class="typewriter-cursor">|</span>
+      </div>
+      <p class="hero-description animate-in">
+        App Developer & Web Developer crafting seamless digital experiences
+        from front-end interfaces to back-end architectures.
+      </p>
+      <div class="hero-cta animate-in">
+        <a href="#projects" class="btn btn-primary">
+          <span>View My Work</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <span>Get In Touch</span>
+        </a>
+      </div>
+      <div class="hero-stats animate-in">
+        <div class="stat">
+          <span class="stat-number" data-target="10">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Projects</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Technologies</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="2">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Coding</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual animate-in">
+      <div class="code-window">
+        <div class="code-header">
+          <div class="code-dots">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+          </div>
+          <span class="code-title">developer.js</span>
+        </div>
+        <div class="code-body">
+          <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Tamer Altaweel"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Full Stack Developer"</span>,
+  <span class="code-property">skills</span>: [
+    <span class="code-string">"JavaScript"</span>,
+    <span class="code-string">"React"</span>,
+    <span class="code-string">"Node.js"</span>,
+    <span class="code-string">"Python"</span>,
+  ],
+  <span class="code-property">passion</span>: <span class="code-string">"Building amazing apps"</span>,
+  <span class="code-method">createSomethingGreat</span>() {
+    <span class="code-keyword">return</span> <span class="code-string">"Let's build it!"</span>;
+  }
+};</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">&lt;about&gt;</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">Get to know the person behind the code</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal">
+          <div class="image-frame">
+            <div class="image-placeholder">
+              <i class="fas fa-user-astronaut"></i>
+            </div>
+            <div class="image-border"></div>
+          </div>
+          <div class="about-experience-badge">
+            <span class="exp-number">2+</span>
+            <span class="exp-text">Years of<br>Experience</span>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <h3 class="about-heading">A passionate developer who loves turning ideas into reality</h3>
+          <p class="about-text">
+            I'm Tamer Altaweel, a dedicated App and Web Developer with a knack for building
+            both front-end and back-end solutions. I thrive on solving complex problems and
+            creating applications that are not only functional but also beautifully designed.
+          </p>
+          <p class="about-text">
+            Whether it's crafting responsive web interfaces, building robust APIs, or developing
+            mobile applications, I bring the same level of passion and attention to detail to
+            every project. I'm constantly learning new technologies and pushing the boundaries
+            of what's possible.
+          </p>
+          <div class="about-details">
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Based Worldwide</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-envelope"></i>
+              <span>blackstar09770@gmail.com</span>
+            </div>
+            <div class="detail-item">
+              <i class="fas fa-circle-check"></i>
+              <span>Available for freelance</span>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary">
+            <span>Let's Talk</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">&lt;skills&gt;</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <p class="section-subtitle">Technologies and tools I work with</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category reveal">
+          <div class="category-header">
+            <div class="category-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3>Frontend</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fab fa-html5"></i>
+              <span>HTML5</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="95"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS3</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-js"></i>
+              <span>JavaScript</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-react"></i>
+              <span>React</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-feather"></i>
+              <span>Tailwind</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category reveal">
+          <div class="category-header">
+            <div class="category-icon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Backend</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-python"></i>
+              <span>Python</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-database"></i>
+              <span>SQL</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-bolt"></i>
+              <span>Express.js</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="78"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tools & Other -->
+        <div class="skill-category reveal">
+          <div class="category-header">
+            <div class="category-icon">
+              <i class="fas fa-tools"></i>
+            </div>
+            <h3>Tools & More</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-item">
+              <i class="fab fa-git-alt"></i>
+              <span>Git & GitHub</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-mobile-alt"></i>
+              <span>React Native</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fab fa-figma"></i>
+              <span>Figma</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-terminal"></i>
+              <span>CLI Tools</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <i class="fas fa-cloud"></i>
+              <span>REST APIs</span>
+              <div class="skill-bar"><div class="skill-fill" data-level="85"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">&lt;projects&gt;</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Some things I've built</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">E-Commerce Platform</h3>
+            <p class="project-description">A full-stack e-commerce application with user auth, cart management, payment integration, and admin dashboard.</p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Stripe</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-comments"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Real-Time Chat App</h3>
+            <p class="project-description">A messaging application with real-time communication, media sharing, and group chat functionality.</p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Socket.io</span>
+              <span class="tag">Express</span>
+              <span class="tag">JWT</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Task Manager App</h3>
+            <p class="project-description">A cross-platform mobile app for managing tasks with drag-and-drop, notifications, and cloud sync.</p>
+            <div class="project-tags">
+              <span class="tag">React Native</span>
+              <span class="tag">Firebase</span>
+              <span class="tag">Redux</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link" title="View Code">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project-link" title="Live Demo">
+                  <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3 class="project-title">Analytics Dashboard</h3>
+            <p class="project-description">An interactive data visualization dashboard with real-time charts, filters, and export functionality.</p>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">D3.js</span>
+              <span class="tag">Python</span>
+              <span class="tag">REST API</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects-cta reveal">
+        <a href="https://github.com/TamerAli-0" target="_blank" class="btn btn-outline">
+          <i class="fab fa-github"></i>
+          <span>See More on GitHub</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">&lt;contact&gt;</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <p class="section-subtitle">Let's work together on something great</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Let's talk about your project</h3>
+          <p>I'm always open to new opportunities and interesting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+          <div class="contact-methods">
+            <a href="mailto:blackstar09770@gmail.com" class="contact-method">
+              <div class="method-icon"><i class="fas fa-envelope"></i></div>
+              <div class="method-details">
+                <span class="method-label">Email</span>
+                <span class="method-value">blackstar09770@gmail.com</span>
+              </div>
+            </a>
+            <a href="https://github.com/TamerAli-0" target="_blank" class="contact-method">
+              <div class="method-icon"><i class="fab fa-github"></i></div>
+              <div class="method-details">
+                <span class="method-label">GitHub</span>
+                <span class="method-value">TamerAli-0</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder=" " required>
+            <label for="name">Your Name</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder=" " required>
+            <label for="email">Your Email</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder=" " required>
+            <label for="subject">Subject</label>
+            <div class="form-line"></div>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="4" placeholder=" " required></textarea>
+            <label for="message">Your Message</label>
+            <div class="form-line"></div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#" class="footer-logo">
+          <span class="logo-bracket">&lt;</span>T<span class="logo-dot">.</span>A<span class="logo-bracket">/&gt;</span>
+        </a>
+        <div class="footer-socials">
+          <a href="https://github.com/TamerAli-0" target="_blank" class="social-link" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:blackstar09770@gmail.com" class="social-link" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <p class="footer-text">&copy; 2026 Tamer Altaweel. Built with passion.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
