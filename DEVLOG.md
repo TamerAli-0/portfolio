@@ -9,14 +9,15 @@ Tracking the build-out of my portfolio and all showcase projects.
 | # | Project | Type | Stack | Status |
 |---|---------|------|-------|--------|
 | 0 | Portfolio Website | Frontend | HTML, CSS, JS | Done |
-| 1 | WeatherNow | Full Stack Web App | HTML, CSS, JS, OpenWeather API | Done |
+| 1 | WeatherNow | Full Stack Web App | HTML, CSS, JS, Open-Meteo API | Done |
 | 2 | QuickTask | Mobile / PWA | React, Firebase, PWA | Pending |
 | 3 | DevVault | API / Backend | Node.js, Express, MongoDB, JWT Auth | Pending |
 | 4 | ChatBot AI | AI Integration | React, Node.js, OpenAI API | Pending |
-| 5 | PixelDraw | Creative / Fun | HTML Canvas, JS, WebSockets | Pending |
-| 6 | TypingArena | Game / Interactive | Vanilla JS, CSS Animations | Pending |
+| 5 | PixelDraw | Creative / Fun | HTML Canvas, JS | Done |
+| 6 | TypingArena | Game / Interactive | Vanilla JS, CSS Animations | Done |
 | 7 | LinkForest | Utility / SaaS | React, Node.js, MongoDB, Short URLs | Pending |
-| 8 | SoundBoard | Audio / Fun | Web Audio API, JS, CSS Grid | Pending |
+| 8 | SoundBoard | Audio / Fun | Web Audio API, JS, CSS Grid | Done |
+| 9 | OmniStream | Android App | Kotlin, Jetpack Compose, Hilt, Room | Done |
 
 ---
 
@@ -154,7 +155,27 @@ A drum machine / sound pad where users tap colorful pads to trigger sounds. Supp
 - [x] Built Project 1 — WeatherNow (weather dashboard with dynamic themes)
 - [x] Pushed to `TamerAli-0/weather-now` + enabled GitHub Pages
 - [x] Updated portfolio project cards with real repo links
-- [ ] **Next up:** Build Project 6 — TypingArena, Project 8 — SoundBoard, Project 5 — PixelDraw
+- [x] Built TypingArena — typing speed game with WPM tracking, 4 difficulty modes, leaderboard
+- [x] Built SoundBoard — drum machine with 4 sound packs, beat sequencer, beat generator (5 styles)
+- [x] Built PixelDraw — pixel art canvas with tools, palette, undo/redo, PNG export, gallery
+- [x] Pushed all 3 to GitHub + enabled GitHub Pages
+- [x] Switched WeatherNow to Open-Meteo API — fully functional, no API key needed
+- [x] Pushed OmniStream (Kotlin/Android) to `TamerAli-0/OmniStream`
+- [x] Updated portfolio: OmniStream as flagship project, Kotlin/Java skills, expanded grid
+- [x] Added beat generator to SoundBoard (Trap, Boom Bap, House, Drill, Lo-Fi)
+
+---
+
+## All Live Links
+
+| Project | Repo | Live |
+|---------|------|------|
+| Portfolio | [portfolio](https://github.com/TamerAli-0/portfolio) | [tamerali-0.github.io/portfolio](https://tamerali-0.github.io/portfolio/) |
+| OmniStream | [OmniStream](https://github.com/TamerAli-0/OmniStream) | Android App (APK) |
+| WeatherNow | [weather-now](https://github.com/TamerAli-0/weather-now) | [tamerali-0.github.io/weather-now](https://tamerali-0.github.io/weather-now/) |
+| TypingArena | [typing-arena](https://github.com/TamerAli-0/typing-arena) | [tamerali-0.github.io/typing-arena](https://tamerali-0.github.io/typing-arena/) |
+| SoundBoard | [sound-board](https://github.com/TamerAli-0/sound-board) | [tamerali-0.github.io/sound-board](https://tamerali-0.github.io/sound-board/) |
+| PixelDraw | [pixel-draw](https://github.com/TamerAli-0/pixel-draw) | [tamerali-0.github.io/pixel-draw](https://tamerali-0.github.io/pixel-draw/) |
 
 ---
 
