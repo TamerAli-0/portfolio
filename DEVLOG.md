@@ -9,7 +9,7 @@ Tracking the build-out of my portfolio and all showcase projects.
 | # | Project | Type | Stack | Status |
 |---|---------|------|-------|--------|
 | 0 | Portfolio Website | Frontend | HTML, CSS, JS | Done |
-| 1 | WeatherNow | Full Stack Web App | React, Node.js, Express, OpenWeather API | Pending |
+| 1 | WeatherNow | Full Stack Web App | HTML, CSS, JS, OpenWeather API | Done |
 | 2 | QuickTask | Mobile / PWA | React, Firebase, PWA | Pending |
 | 3 | DevVault | API / Backend | Node.js, Express, MongoDB, JWT Auth | Pending |
 | 4 | ChatBot AI | AI Integration | React, Node.js, OpenAI API | Pending |
@@ -151,7 +151,10 @@ A drum machine / sound pad where users tap colorful pads to trigger sounds. Supp
 - [x] Enabled GitHub Pages — live at https://tamerali-0.github.io/portfolio/
 - [x] Added README
 - [x] Created devlog and project roadmap
-- [ ] **Next up:** Build Project 1 — WeatherNow
+- [x] Built Project 1 — WeatherNow (weather dashboard with dynamic themes)
+- [x] Pushed to `TamerAli-0/weather-now` + enabled GitHub Pages
+- [x] Updated portfolio project cards with real repo links
+- [ ] **Next up:** Build Project 6 — TypingArena, Project 8 — SoundBoard, Project 5 — PixelDraw
 
 ---
 
