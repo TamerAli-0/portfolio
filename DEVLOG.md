@@ -172,6 +172,16 @@ A drum machine / sound pad where users tap colorful pads to trigger sounds. Supp
 - [x] Planned OmniStream access gate (password + account creation)
 - [x] Planned OmniStream Web — companion website with login and cross-device sync
 
+### Day 3 — Jan 31, 2026
+- [x] OmniStream Phase 9 (Download System) — complete with bug fixes
+- [x] Fixed manga downloads: CDN was blocking direct requests, added proper image headers
+- [x] Fixed video downloads: added HLS stream support (m3u8 playlist parsing + segment download)
+- [x] Offline playback working for both manga chapters and video content
+- [x] Chapter read status highlighting (greyed out read chapters, green checkmarks for downloads)
+- [x] Floating batch download button, chapter number formatting cleanup
+- [x] WorkManager foreground service fix for Android 14+ (foregroundServiceType in manifest)
+- [x] Tested on Infinix Note 30 — downloads, offline reading, offline video all working
+
 ---
 
 ## All Live Links
