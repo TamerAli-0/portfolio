@@ -234,12 +234,6 @@ Suggestions and improvements are welcome!
 
 <div align="center">
 
-**Built with ❤️ by [Tamer Altaweel](https://github.com/TamerAli-0)**
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tamerali-0.github.io/portfolio/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/TamerAli-0)
-[![OmniStream](https://img.shields.io/badge/OmniStream-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/TamerAli-0/OmniStream)
-
 ### ⭐ Star this repo if you find it useful!
 
 </div>
